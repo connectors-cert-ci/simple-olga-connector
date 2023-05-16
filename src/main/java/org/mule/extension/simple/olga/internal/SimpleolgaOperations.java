@@ -1,4 +1,4 @@
-package org.mule.extension.simple.olga..internal;
+package org.mule.extension.simple.olga.internal;
 
 import static org.mule.runtime.extension.api.annotation.param.MediaType.ANY;
 

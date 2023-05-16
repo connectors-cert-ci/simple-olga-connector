@@ -1,4 +1,4 @@
-package org.mule.extension.simple.olga..internal;
+package org.mule.extension.simple.olga.internal;
 
 import org.mule.runtime.api.connection.ConnectionException;
 import org.mule.runtime.extension.api.annotation.param.Parameter;
