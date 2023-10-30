@@ -11,7 +11,7 @@ import org.mule.runtime.extension.api.annotation.license.RequiresEntitlement;
  * and sources are going to be declared.
  */
 @Xml(prefix = "simple-olga")
-@Extension(name = "Simple-olga-")
+@Extension(name = "Simple-olga-", vendor = "Olga")
 @Configurations(SimpleolgaConfiguration.class)
 @RequiresEntitlement(name="Simple-olga-")
 public class SimpleolgaExtension {
