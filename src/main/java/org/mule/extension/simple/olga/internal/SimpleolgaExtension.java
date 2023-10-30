@@ -1,5 +1,6 @@
 package org.mule.extension.simple.olga.internal;
 
+import org.mule.runtime.api.meta.Category;
 import org.mule.runtime.extension.api.annotation.Extension;
 import org.mule.runtime.extension.api.annotation.Configurations;
 import org.mule.runtime.extension.api.annotation.dsl.xml.Xml;
@@ -11,7 +12,7 @@ import org.mule.runtime.extension.api.annotation.license.RequiresEntitlement;
  * and sources are going to be declared.
  */
 @Xml(prefix = "simple-olga")
-@Extension(name = "Simple-olga-", vendor = "Olga")
+@Extension(name = "Simple-olga-", category = Category.CERTIFIED, vendor = "Olga")
 @Configurations(SimpleolgaConfiguration.class)
 @RequiresEntitlement(name="Simple-olga-")
 public class SimpleolgaExtension {
