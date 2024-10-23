@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>cam-test-connector</groupId>
-    <artifactId>cam-test-connector</artifactId>
+    <groupId>cam-test-new-connector</groupId>
+    <artifactId>cam-test-new-connector</artifactId>
     <version>1.0.0</version>
     <packaging>mule-extension</packaging>
-    <name>Cam Test Connector - Mule4</name>
+    <name>Cam Test Connector New - Mule4</name>
 
     <parent>
         <groupId>org.mule.extensions</groupId>
